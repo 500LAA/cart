@@ -28,16 +28,16 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "500LAA\\cart\\Test\\": "tests"
+            
         }
     },
     "scripts": {
-        "test": "vendor/bin/phpunit"
+        
     },
     "extra": {
         "laravel": {
             "providers": [
-                "500LAA\\cart\\CartManagerServiceProvider"
+                
             ]
         }
     },
