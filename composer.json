@@ -1,0 +1,46 @@
+{
+    "name": "500LAA/cart",
+    "description": "Managing the cart of your Laravel application is a breeze",
+    "require": {
+        "php": "^7.3|^7.4|^8.0",
+        "ext-intl": "*",
+        "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0|^9.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.9",
+        "orchestra/testbench": "^6.23|^7.0.0",
+        "laravel/legacy-factories": "^1.3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anton Laptev",
+            "email": "mail@laptevanton.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "500LAA\\cart\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "500LAA\\cart\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "500LAA\\cart\\CartManagerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
