@@ -1,5 +1,5 @@
 {
-    "name": "500LAA/cart",
+    "name": "500laa/cart",
     "description": "Managing the cart of your Laravel application is a breeze",
     "require": {
         "php": "^7.3|^7.4|^8.0",
